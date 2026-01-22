@@ -1,0 +1,177 @@
+---
+pid: 2421
+cwd: /home/ec2-user/myproject
+active_command: python3 manage.py shell
+last_command: |
+  python3 manage.py runserver 0.0.0.0:8000
+last_exit_code: 0
+---
+[ec2-user@ip-172-31-24-235 ~]$ cd myproject
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py makemigrations
+python3 manage.py migrate
+No changes detected
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, customers, sessions
+Running migrations:
+  No migrations to apply.
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py runserver 0.0.0.0:8000
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2026 - 17:37:53
+Django version 4.2.27, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[22/Jan/2026 17:37:56] "GET / HTTP/1.1" 200 10664
+Invalid HTTP_HOST header: '3.139.94.75:8000'. You may need to add '3.139.94.75' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.139.94.75:8000'. You may need to add '3.139.94.75' to ALLOWED_HOSTS.
+[22/Jan/2026 17:38:25] "GET /admin/ HTTP/1.1" 400 66443
+Invalid HTTP_HOST header: '3.139.94.75:8000'. You may need to add '3.139.94.75' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '3.139.94.75:8000'. You may need to add '3.139.94.75' to ALLOWED_HOSTS.
+[22/Jan/2026 17:38:26] "GET /favicon.ico HTTP/1.1" 400 66340
+/home/ec2-user/myproject/myproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2026 - 17:45:29
+Django version 4.2.27, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[22/Jan/2026 17:45:32] "GET /admin/ HTTP/1.1" 302 0
+[22/Jan/2026 17:45:32] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+[22/Jan/2026 17:45:32] "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+[22/Jan/2026 17:45:32] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+[22/Jan/2026 17:45:32] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+[22/Jan/2026 17:45:32] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[22/Jan/2026 17:45:32] "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+[22/Jan/2026 17:45:32] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[22/Jan/2026 17:45:32] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Not Found: /favicon.ico
+[22/Jan/2026 17:45:33] "GET /favicon.ico HTTP/1.1" 404 2115
+[22/Jan/2026 17:45:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4358
+[22/Jan/2026 17:45:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4343
+^C[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py createsuperuser
+Username (leave blank to use 'ec2-user'): admin
+Error: That username is already taken.
+Username (leave blank to use 'ec2-user'): python3 manage.py runserver 0.0.0.0:8000
+Error: Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.
+Username (leave blank to use 'ec2-user'): ^C
+Operation cancelled.
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py runserver 0.0.0.0:8000
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2026 - 17:47:53
+Django version 4.2.27, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[22/Jan/2026 17:47:56] "GET / HTTP/1.1" 200 10664
+[22/Jan/2026 17:48:03] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[22/Jan/2026 17:48:04] "GET /admin/ HTTP/1.1" 200 5556
+[22/Jan/2026 17:48:04] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[22/Jan/2026 17:48:04] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[22/Jan/2026 17:48:04] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[22/Jan/2026 17:48:25] "GET /admin/auth/user/ HTTP/1.1" 200 10460
+[22/Jan/2026 17:48:25] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+[22/Jan/2026 17:48:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[22/Jan/2026 17:48:25] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[22/Jan/2026 17:48:25] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+[22/Jan/2026 17:48:25] "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+[22/Jan/2026 17:48:25] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[22/Jan/2026 17:48:25] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[22/Jan/2026 17:48:25] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[22/Jan/2026 17:48:25] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+[22/Jan/2026 17:48:25] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[22/Jan/2026 17:48:25] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[22/Jan/2026 17:48:25] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[22/Jan/2026 17:48:25] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[22/Jan/2026 17:48:25] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[22/Jan/2026 17:48:25] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[22/Jan/2026 17:48:29] "GET /admin/auth/group/ HTTP/1.1" 200 7251
+[22/Jan/2026 17:48:29] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[22/Jan/2026 17:48:43] "GET /admin/auth/user/ HTTP/1.1" 200 10460
+[22/Jan/2026 17:48:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+python3 manage.py shell
+^C[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py shell
+Python 3.9.25 (main, Nov 12 2025, 00:00:00) 
+[GCC 11.5.0 20240719 (Red Hat 11.5.0-5)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from customers.models import Customer
+>>> Customer.objects.create(first_name="John", last_name="Doe", email="john.doe@example.com", phone_number="123-456-7890")
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: customers_customer.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/query.py", line 660, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/query.py", line 1810, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: customers_customer.email
+>>> 
+KeyboardInterrupt
+>>> 
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>>

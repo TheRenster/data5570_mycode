@@ -1,0 +1,3 @@
+2026-01-06 20:24:07.658 [info] [main] Log level: Info
+2026-01-06 20:24:07.658 [warning] Unable to find git. Error: not found: git
+2026-01-06 20:24:07.658 [warning] [main] Failed to create model: Error: Git installation not found.

@@ -1,0 +1,5 @@
+> conda info --json
+> /bin/python3 -I ~/.cursor-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.cursor-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 -I ~/.cursor-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ~/.cursor-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3
+Editor support is inactive since language server is set to None.

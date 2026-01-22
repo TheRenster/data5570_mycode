@@ -1,0 +1,18 @@
+{
+    "remote.SSH.remotePlatform": {
+        "ec2-52-53-207-120.us-west-1.compute.amazonaws.com": "linux",
+        "ssh -i \"C:\\\\Users\\\\laure\\\\Downloads\\\\Key.pem\" ec2-user@3.133.105.142": "linux",
+        "my-aws": "linux"
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "python.defaultInterpreterPath": "C:\\Users\\laure\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "workbench.colorTheme": "Cursor Dark Midnight"
+}

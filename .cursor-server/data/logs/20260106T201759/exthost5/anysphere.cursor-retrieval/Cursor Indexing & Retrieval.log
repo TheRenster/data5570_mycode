@@ -1,0 +1,81 @@
+2026-01-06 20:42:51.320 [error] Error getting repo info: Failed to execute git
+2026-01-06 20:42:51.320 [error] Error: Failed to execute git
+	at t.Git._exec (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:34792)
+	at async t.Git.exec (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:33915)
+	at async t.GitProvider.executeGitCommandStable (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/cursor-retrieval/dist/main.js:2:1423402)
+	at async t.GitProvider.getRepoInfo (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/cursor-retrieval/dist/main.js:2:1399204)
+2026-01-06 20:42:51.320 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-01-06 20:42:51.320 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-01-06 20:42:51.398 [error] Error getting repo info: Failed to execute git
+2026-01-06 20:42:51.399 [warning] Failed to get symbolic ref: Failed to execute git
+2026-01-06 20:42:51.404 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/ec2-user/data5570_mycode/.git/HEAD')
+2026-01-06 20:42:51.423 [warning] Failed to get branches from remote: Failed to execute git
+2026-01-06 20:42:51.424 [warning] Failed to get default branch from git config: Failed to execute git
+2026-01-06 20:42:51.442 [info] Making keys for a new index
+2026-01-06 20:42:51.503 [info] Using the default key from the server for a new index
+2026-01-06 20:42:51.503 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 20:42:51.571 [info] Using existing keys for an index
+2026-01-06 20:42:51.571 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 20:42:51.665 [info] Starting RepoIndexWatcher for repo: 2f083bac-3fa2-4cbd-803a-688a046640ef, owner: auth0|user_01KE7Z4HVZXQKDAY2WKCN896JE
+2026-01-06 20:42:51.665 [info] Doing a startup handshake.
+2026-01-06 20:42:51.966 [info] Finished computing merkle tree in 121.23212200000034 ms.
+2026-01-06 20:42:51.967 [info] Doing the initial handshake with hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-01-06 20:42:51.970 [info] Computed simhash vector of length: 0
+2026-01-06 20:42:51.970 [info] Path key hash: 33ffada3535db0f72d7351c3a4317dd8bcff24d0aff6d75018454d6a01a6abba
+2026-01-06 20:42:51.970 [info] Handshake start
+2026-01-06 20:42:52.097 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/ec2-user/.cursor-server/data/User/workspaceStorage/49597ff8ed310845581c0255de954d60/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2026-01-06 20:42:52.217 [info] Handshake timing: 248.09221499999967, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2026-01-06 20:42:52.217 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2026-01-06 20:42:52.217 [info] Starting fast remote sync.
+2026-01-06 20:42:52.217 [info] Total num embeddable files: 0
+2026-01-06 20:42:52.218 [info] Root hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2026-01-06 20:42:52.218 [info] Starting repository upload from scratch.
+2026-01-06 20:42:52.218 [info] Uploading 0 files.
+2026-01-06 20:42:52.219 [info] Total number of files to embed: 0
+2026-01-06 20:42:52.219 [info] Not aborted
+2026-01-06 20:42:52.219 [info] Starting while loop.
+2026-01-06 20:42:52.272 [info] Finishing sync (hasUpdates: true, isErr: false)
+2026-01-06 20:42:52.331 [info] Finished indexing repository.
+2026-01-06 20:42:52.331 [info] Indexing job successfully done or aborted.
+2026-01-06 20:47:39.666 [info] multiCodebaseIndexingJob dispose
+2026-01-06 20:47:39.666 [info] Aborting indexing job.
+2026-01-06 20:47:39.666 [info] Setting global status from status tracker: synced
+2026-01-06 20:47:39.666 [info] Doing a startup handshake.
+2026-01-06 20:47:40.014 [info] Finished computing merkle tree in 152.2493039999972 ms.
+2026-01-06 20:47:40.016 [info] Doing the initial handshake with hash: cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6
+2026-01-06 20:47:40.030 [info] Computed simhash vector of length: 256
+2026-01-06 20:47:40.030 [info] Path key hash: 33ffada3535db0f72d7351c3a4317dd8bcff24d0aff6d75018454d6a01a6abba
+2026-01-06 20:47:40.030 [info] Handshake start
+2026-01-06 20:47:40.129 [info] Handshake timing: 110.53036199999042, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2026-01-06 20:47:40.129 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2026-01-06 20:47:40.129 [info] Starting fast remote sync.
+2026-01-06 20:47:40.130 [info] Total num embeddable files: 1
+2026-01-06 20:47:40.131 [info] Root hash: cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6
+2026-01-06 20:47:40.131 [info] Starting repository upload from scratch.
+2026-01-06 20:47:40.131 [info] Uploading 1 files.
+2026-01-06 20:47:40.131 [info] Total number of files to embed: 1
+2026-01-06 20:47:40.131 [info] Not aborted
+2026-01-06 20:47:40.131 [info] Starting while loop.
+2026-01-06 20:47:40.325 [info] Completed job successfully: c93add3b-3dab-4cf3-ab8f-2281b3d23e51 ./hello.py
+2026-01-06 20:47:40.375 [info] Finishing sync (hasUpdates: true, isErr: false)
+2026-01-06 20:47:40.611 [info] Finished indexing repository.
+2026-01-06 20:47:40.611 [info] Indexing job successfully done or aborted.
+2026-01-06 20:52:27.665 [info] multiCodebaseIndexingJob dispose
+2026-01-06 20:52:27.665 [info] Aborting indexing job.
+2026-01-06 20:52:27.665 [info] Setting global status from status tracker: synced
+2026-01-06 20:52:27.665 [info] Doing a startup handshake.
+2026-01-06 20:52:27.904 [info] Finished computing merkle tree in 120.42945600009989 ms.
+2026-01-06 20:52:27.904 [info] Doing the initial handshake with hash: cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6
+2026-01-06 20:52:27.906 [info] Computed simhash vector of length: 256
+2026-01-06 20:52:27.906 [info] Path key hash: 33ffada3535db0f72d7351c3a4317dd8bcff24d0aff6d75018454d6a01a6abba
+2026-01-06 20:52:27.906 [info] Handshake start
+2026-01-06 20:52:28.030 [info] Handshake timing: 125.24664899997879, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2026-01-06 20:52:28.030 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c93add3b-3dab-4cf3-ab8f-2281b3d23e51","status":"STATUS_UP_TO_DATE","copyTaskHandle":""}]}
+2026-01-06 20:52:28.031 [info] Starting fast remote sync.
+2026-01-06 20:52:28.031 [info] Total num embeddable files: 1
+2026-01-06 20:52:28.032 [info] Root hash: cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6
+2026-01-06 20:52:28.036 [info] Finishing sync (hasUpdates: false, isErr: false)
+2026-01-06 20:52:28.145 [info] Finished indexing repository.
+2026-01-06 20:52:28.145 [info] Indexing job successfully done or aborted.
+2026-01-06 20:56:03.230 [info] multiCodebaseIndexingJob dispose
+2026-01-06 20:56:03.230 [info] Aborting indexing job.

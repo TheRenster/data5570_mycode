@@ -1,0 +1,136 @@
+2026-01-06 20:42:49.062 [info] Extension host with pid 34466 started
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] dirname: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] Linux sandbox helper path: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] process.execPath: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] ripgrep path for sandboxing: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/node_modules/@vscode/ripgrep/bin/rg
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary found at: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Running preflight with binary: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] CWD: /home/ec2-user undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Preflight failed: Command failed: /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/resources/helpers/cursor-sandbox --sandbox-policy-cwd /home/ec2-user --sandbox-policy {"type":"workspace_readwrite","cwd":"/home/ec2-user","additional_readwrite_paths":[],"additional_readonly_paths":[],"network_access":false,"disable_tmp_write":false,"block_git_writes":false} --preflight-only -- /bin/true undefined
+2026-01-06 20:42:49.062 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Exit status: 1 undefined
+2026-01-06 20:42:49.062 [info] [ExtHostShellExec] Sandbox support detected: false
+2026-01-06 20:42:49.075 [info] Lock '/home/ec2-user/.cursor-server/data/User/workspaceStorage/49597ff8ed310845581c0255de954d60/vscode.lock': Lock acquired.
+2026-01-06 20:42:49.177 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2026-01-06 20:42:49.179 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-01-06 20:42:49.179 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-06 20:42:49.755 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-01-06 20:42:49.755 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-01-06 20:42:50.033 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2026-01-06 20:42:50.611 [info] Eager extensions activated
+2026-01-06 20:42:50.611 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2026-01-06 20:42:50.611 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2026-01-06 20:42:50.612 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-01-06 20:42:50.612 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-06 20:42:50.612 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-06 20:43:43.422 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-01-06 20:43:43.423 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-01-06 20:43:43.423 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2026-01-06 20:43:45.557 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2026-01-06 20:43:45.889 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2026-01-06 20:43:47.012 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-01-06 20:43:56.487 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-01-06 20:56:03.170 [info] Extension host terminating: received terminate message from renderer
+2026-01-06 20:56:03.172 [info] Lock '/home/ec2-user/.cursor-server/data/User/workspaceStorage/49597ff8ed310845581c0255de954d60/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-06 20:56:03.231 [error] Canceled: Canceled
+	at new yst (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:164347)
+	at M0e._remoteCall (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:170678)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:167432)
+	at MCe._doExecuteCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49821)
+	at MCe.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49260)
+	at t.registerCommand.description (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:48524)
+	at MCe._executeContributedCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:50391)
+	at MCe._doExecuteCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49393)
+	at MCe.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49260)
+	at Object.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:197:142714)
+	at Wpe.N [as value] (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:109007)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x._deliverQueue (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3052)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3389)
+	at Object.v [as dispose] (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:177471)
+	at /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:183836
+	at Array.forEach (<anonymous>)
+	at R.dispose (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:183823)
+	at W_e.<anonymous> (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10091)
+	at W_e.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10187)
+	at W_e.<anonymous> (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:111484)
+	at W_e.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10187)
+	at pi (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:40:706)
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:19820
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:40:1019
+	at Object.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:23:1274)
+	at ins._deactivate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:15320)
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12592
+	at Array.map (<anonymous>)
+	at ins._deactivateAll (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12580)
+	at ins.terminate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12934)
+	at AVe.terminate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:140:1617)
+	at Er (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:749:17945)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:749:16070)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at Ko.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:10988)
+	at Ake._receiveMessage (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:15941)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:13302)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at nBe.acceptChunk (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:8782)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:7910)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at ltt._processReadQueue (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:27432) setContext undefined
+2026-01-06 20:56:03.232 [error] Canceled: Canceled
+	at new yst (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:164347)
+	at M0e._remoteCall (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:170678)
+	at r.<computed>.a.charCodeAt.r.<computed> (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:167432)
+	at MCe._doExecuteCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49821)
+	at MCe.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49260)
+	at t.registerCommand.description (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:48524)
+	at MCe._executeContributedCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:50391)
+	at MCe._doExecuteCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49393)
+	at MCe.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:134:49260)
+	at Object.executeCommand (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:197:142714)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/github/dist/extension.js:2:270497)
+	at /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/github/dist/extension.js:2:271447
+	at Wpe.value (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:592259)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x._deliverQueue (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3052)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3389)
+	at Object.v [as dispose] (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:177471)
+	at /home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:183836
+	at Array.forEach (<anonymous>)
+	at R.dispose (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:183823)
+	at W_e.<anonymous> (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10091)
+	at W_e.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10187)
+	at W_e.<anonymous> (/home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/extensions/git/dist/main.js:2:111484)
+	at W_e.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:129:10187)
+	at pi (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:40:706)
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:19820
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:40:1019
+	at Object.dispose (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:23:1274)
+	at ins._deactivate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:15320)
+	at file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12592
+	at Array.map (<anonymous>)
+	at ins._deactivateAll (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12580)
+	at ins.terminate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:138:12934)
+	at AVe.terminate (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:140:1617)
+	at Er (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:749:17945)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:749:16070)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at Ko.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:10988)
+	at Ake._receiveMessage (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:15941)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:13302)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at nBe.acceptChunk (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:8782)
+	at Wpe.value (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:7910)
+	at x._deliver (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:2961)
+	at x.fire (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:42:3282)
+	at ltt._processReadQueue (file:///home/ec2-user/.cursor-server/bin/20adc1003928b0f1b99305dbaf845656ff81f5d0/out/vs/workbench/api/node/extensionHostProcess.js:44:27432) setContext undefined
+2026-01-06 20:56:03.234 [info] Extension host with pid 34466 exiting with code 0

@@ -1,0 +1,14 @@
+2026-01-21 20:42:15.929 [info] 
+
+
+
+
+2026-01-21 20:42:15.940 [info] Extension host agent started.
+2026-01-21 20:42:16.456 [info] [127.0.0.1][687847e9][ManagementConnection] New connection established.
+2026-01-21 20:42:16.578 [info] [127.0.0.1][253974f5][ExtensionHostConnection] New connection established.
+2026-01-21 20:42:16.588 [info] Getting extensions control
+2026-01-21 20:42:16.592 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-21 20:42:16.677 [info] [127.0.0.1][253974f5][ExtensionHostConnection] <2078> Launched Extension Host Process.
+2026-01-21 20:42:24.691 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /home/ec2-user)
+2026-01-21 20:47:15.941 [info] New EH opened, aborting shutdown
+2026-01-21 21:28:00.720 [warning] No ptyHost heartbeat after 6 seconds

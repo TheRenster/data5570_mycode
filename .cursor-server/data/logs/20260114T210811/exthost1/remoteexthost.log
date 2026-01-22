@@ -1,0 +1,168 @@
+2026-01-14 21:08:21.684 [info] Extension host with pid 365790 started
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: undefined
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] Detecting sandbox support...
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] dirname: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] Sandbox helper path: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/resources/helpers/cursor-sandbox
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] process.resourcesPath: undefined
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] process.execPath: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/node
+2026-01-14 21:08:21.684 [info] [ExtHostShellExec] ripgrep path for sandboxing: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/resources/helpers/rg
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Starting sandbox support check... undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/resources/helpers/cursor-sandbox undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path exists: true undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Running preflight with binary: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/resources/helpers/cursor-sandbox undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [isSandboxHelperSupported] CWD: /home/ec2-user undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Preflight failed: Command failed: /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/resources/helpers/cursor-sandbox --sandbox-policy-cwd /home/ec2-user --sandbox-policy {"type":"workspace_readwrite","cwd":"/home/ec2-user","additional_readwrite_paths":[],"additional_readonly_paths":[],"network_access":false,"disable_tmp_write":false,"block_git_writes":false} --preflight-only -- /bin/true undefined
+2026-01-14 21:08:21.685 [error] [shell-exec:sandbox] [isSandboxHelperSupported] Exit status: 1 undefined
+2026-01-14 21:08:21.685 [info] [ExtHostShellExec] Sandbox support detected: false
+2026-01-14 21:08:21.711 [info] Lock '/home/ec2-user/.cursor-server/data/User/workspaceStorage/65ea33a0937524888c893cc6ff3dfb6f/vscode.lock': Lock acquired.
+2026-01-14 21:08:30.970 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-01-14 21:08:30.973 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-14 21:08:32.389 [info] ExtHostSearch [cursorIgnore] internal fileSearch start reason=cursorIgnoreCheck roots=1 include=**/.cursorignore maxResults=0 numThreads=(default) folderQueries=[{"cwd":"/home/ec2-user","disregardIgnoreFiles":false,"disregardParentIgnoreFiles":true,"disregardGlobalIgnoreFiles":true,"ignoreSymlinks":false,"rgNoIgnore":false,"rgNoIgnoreParent":true,"rgNoIgnoreGlobal":true,"rgFollow":true}]
+2026-01-14 21:08:32.421 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-01-14 21:08:32.421 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-01-14 21:08:35.982 [info] ExtHostSearch /home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/node_modules/@vscode/ripgrep/bin/rg --files --hidden --case-sensitive --no-require-git -g '**/.cursorignore' -g '!**/.git' -g '!**/.svn' -g '!**/.hg' -g '!**/.DS_Store' -g '!**/Thumbs.db' -g '!**/node_modules' -g '!**/bower_components' -g '!**/*.code-search' --no-ignore-parent --follow --threads '10' --no-config --no-ignore-global
+ - cwd: /home/ec2-user
+ - Sibling clauses: {}
+2026-01-14 21:08:36.245 [info] ExtHostSearch Search finished. Stats: {"cmdTime":268,"fileWalkTime":268,"directoriesWalked":0,"filesWalked":0,"cmdResultCount":0}
+2026-01-14 21:08:36.250 [info] ExtHostSearch [cursorIgnore] internal fileSearch done in 3861ms limitHit=false failed=false resultCount=0 cmdTime=268 fileWalkTime=268 providerTime=(unknown)
+2026-01-14 21:08:36.630 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: '*', root cause: anysphere.cursor-agent-exec
+2026-01-14 21:08:39.379 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2026-01-14 21:08:40.300 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2026-01-14 21:08:41.976 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 21:08:41.977 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 21:08:41.977 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-01-14 21:08:44.115 [info] Eager extensions activated
+2026-01-14 21:09:24.295 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-01-14 21:09:30.063 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 21:09:30.063 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 21:09:30.063 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-01-14 21:11:12.264 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-01-14 21:14:14.868 [info] ExtensionService#_doActivateExtension anysphere.cursorpyright, startup: false, activationEvent: 'onLanguage:python'
+2026-01-14 21:14:14.870 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-01-14 21:14:14.870 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-01-14 21:14:17.409 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2026-01-14 21:14:17.720 [warning] DiagnosticCollection with name 'basedpyright' does already exist.
+2026-01-15 00:37:00.076 [info] Extension host terminating: renderer disconnected for too long (1)
+2026-01-15 01:15:23.698 [info] Lock '/home/ec2-user/.cursor-server/data/User/workspaceStorage/65ea33a0937524888c893cc6ff3dfb6f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-01-15 01:15:24.322 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.322 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.322 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.322 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.322 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.323 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.323 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.323 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.323 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.323 [error] Canceled: Canceled
+	at $d (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file:///home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2026-01-15 01:15:24.492 [info] Extension host with pid 365790 exiting with code 0

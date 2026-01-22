@@ -1,0 +1,20 @@
+Cursor (1.105.1, ssh-remote, desktop)
+Jupyter Extension Version: 2025.4.1.
+Python Extension Version: 2023.6.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/ec2-user
+Temp Storage folder ~/.cursor-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.4.1
+Workspace folder /home/ec2-user
+01:15:24.327 [warn] Failed to set jupyter.HasCodeCells context [Canceled: Canceled
+	at $d (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:22:1529)
+	at file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166639
+	at Array.forEach (<anonymous>)
+	at Rl.dispose (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:44:166480)
+	at Jas.terminate (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:142:12913)
+	at Uje.terminate (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:144:1617)
+	at Rr (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:17991)
+	at TDe.runner (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:768:14727)
+	at TDe.onInterval (file://~/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/out/vs/workbench/api/node/extensionHostProcess.js:43:85774)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7)]

@@ -1,0 +1,49 @@
+---
+pid: 6846
+cwd: /home/ec2-user/myproject
+last_command: |
+  git remote add origin https://github.com/TheRenster/data5570_mycode
+last_exit_code: 128
+---
+[ec2-user@ip-172-31-24-235 ~]$ cd myproject
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py runserver 0.0.0.0:8000
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2026 - 17:52:35
+Django version 4.2.27, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[22/Jan/2026 17:52:43] "GET /admin/ HTTP/1.1" 200 5556
+[22/Jan/2026 17:52:47] "GET /admin/auth/user/add/ HTTP/1.1" 200 10035
+[22/Jan/2026 17:52:47] "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+[22/Jan/2026 17:52:47] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[22/Jan/2026 17:52:47] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[22/Jan/2026 17:52:47] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+[22/Jan/2026 17:52:48] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[22/Jan/2026 17:52:50] "GET /admin/ HTTP/1.1" 200 5556
+[22/Jan/2026 17:52:57] "GET / HTTP/1.1" 200 10664
+[22/Jan/2026 17:52:59] "GET /admin/ HTTP/1.1" 200 5556
+/home/ec2-user/myproject/customers/admin.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 22, 2026 - 17:54:22
+Django version 4.2.27, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[22/Jan/2026 17:54:26] "GET /admin/ HTTP/1.1" 200 6235
+[22/Jan/2026 17:54:32] "GET /admin/customers/customer/ HTTP/1.1" 200 8868
+[22/Jan/2026 17:54:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[22/Jan/2026 17:54:36] "GET /admin/customers/customer/1/change/ HTTP/1.1" 200 10479
+[22/Jan/2026 17:54:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[22/Jan/2026 17:54:44] "POST /admin/customers/customer/1/change/ HTTP/1.1" 302 0
+[22/Jan/2026 17:54:45] "GET /admin/customers/customer/ HTTP/1.1" 200 9077
+[22/Jan/2026 17:54:45] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[ec2-user@ip-172-31-24-235 myproject]$ git remote add origin https://github.com/TheRenster/data5570_mycode
+fatal: not a git repository (or any of the parent directories): .git
+[ec2-user@ip-172-31-24-235 myproject]$

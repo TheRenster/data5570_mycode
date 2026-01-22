@@ -1,0 +1,15 @@
+[Info  - 7:35:56 PM] basedpyright language server 1.32.1 starting
+[Info  - 7:35:56 PM] Server root directory: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 7:35:56 PM] Starting service instance "ec2-user"
+[Info  - 7:35:56 PM] BG: Background analysis(1) root directory: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 7:35:56 PM] BG: Background analysis(1) started
+Received pythonPath from Python extension: /home/ec2-user/myvenv/bin/python
+[Info  - 7:35:56 PM] Setting pythonPath for service "ec2-user": "/home/ec2-user/myvenv/bin/python"
+[Info  - 7:35:56 PM] No include entries specified; assuming /home/ec2-user
+[Info  - 7:35:56 PM] Auto-excluding **/node_modules
+[Info  - 7:35:56 PM] Auto-excluding **/__pycache__
+[Info  - 7:35:56 PM] Auto-excluding **/.*
+[Info  - 7:35:56 PM] Assuming Python version 3.9.25.final.0
+[Info  - 7:35:57 PM] Auto-excluding /home/ec2-user/myvenv
+[Info  - 7:35:57 PM] Found 14 source files
+[Info  - 7:41:26 PM] [FG] Long operation: binding: file:///home/ec2-user/myvenv/lib64/python3.9/site-packages/django/utils/autoreload.py (3179ms)

@@ -1,0 +1,34 @@
+2026-01-21 19:35:44.376 [info] 
+
+
+
+
+2026-01-21 19:35:44.389 [info] [CursorProclistService] Native module loaded successfully
+2026-01-21 19:35:44.391 [info] Extension host agent started.
+2026-01-21 19:35:44.777 [info] [127.0.0.1][d75602c1][ManagementConnection] New connection established.
+2026-01-21 19:35:44.870 [info] [127.0.0.1][1c865b24][ExtensionHostConnection] New connection established.
+2026-01-21 19:35:44.891 [info] Getting extensions control
+2026-01-21 19:35:44.894 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-21 19:35:44.969 [info] [127.0.0.1][1c865b24][ExtensionHostConnection] <634226> Launched Extension Host Process.
+2026-01-21 19:35:55.458 [error] [File Watcher] Inotify limit reached (ENOSPC) (path: /home/ec2-user)
+2026-01-21 19:40:44.392 [info] New EH opened, aborting shutdown
+2026-01-21 19:40:44.967 [info] [CursorProclistService] Sample 0 created: 15 processes, 31 subsamples
+2026-01-21 19:42:11.339 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:42:58.234 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:43:29.755 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:43:58.857 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:44:06.503 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:44:09.151 [info] [127.0.0.1][d75602c1][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2026-01-21 19:44:19.794 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:44:32.140 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 19:58:33.449 [info] [127.0.0.1][d75602c1][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2026-01-21 19:58:33.503 [info] [127.0.0.1][c5a0e024][ManagementConnection] New connection established.
+2026-01-21 19:58:33.656 [info] [127.0.0.1][286c12fe][ExtensionHostConnection] New connection established.
+2026-01-21 19:58:33.865 [info] [127.0.0.1][286c12fe][ExtensionHostConnection] <637235> Launched Extension Host Process.
+2026-01-21 19:58:34.803 [info] Getting extensions control
+2026-01-21 19:59:14.801 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-21 20:00:47.218 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 20:00:52.679 [error] Error getting extensions control manifest Timeout getting extensions control
+2026-01-21 20:01:31.341 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 20:02:22.573 [warning] No ptyHost heartbeat after 6 seconds
+2026-01-21 20:02:44.151 [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,9 @@
+[Info  - 20:42:30.33] [pylance import] Already imported settings globally
+[Info  - 20:42:30.33] [pylance import] Already imported settings for remote ssh-remote://ip-172-31-24-235.us-east-2.compute.internal
+[Info  - 20:42:30.33] [pylance import] Already imported settings for workspace ec2-user [SSH: my-aws]
+[Info  - 20:42:30.33] [pylance import] Already imported settings for workspace folder /home/ec2-user
+[Info  - 20:42:30.100] failed to find pyright executable, falling back to bundled:
+/home/ec2-user/myvenv/bin/basedpyright-langserver
+[Info  - 20:42:30.100] using bundled pyright
+[Info  - 20:42:30.101] running node with argzs: --max-old-space-size=3072
+[Info  - 20:42:30.101] using default node executable

@@ -1,0 +1,83 @@
+---
+pid: 6221
+cwd: /home/ec2-user/myproject
+active_command: python3 manage.py shell
+last_command: python3 manage.py makemigrationspython3 manage.py migrate
+last_exit_code: 0
+---
+[ec2-user@ip-172-31-24-235 ~]$ cd myproject
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py makemigrations
+python3 manage.py migrate
+No changes detected
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, customers, sessions
+Running migrations:
+  No migrations to apply.
+[ec2-user@ip-172-31-24-235 myproject]$ python3 manage.py shell
+Python 3.9.25 (main, Nov 12 2025, 00:00:00) 
+[GCC 11.5.0 20240719 (Red Hat 11.5.0-5)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+(InteractiveConsole)
+>>> from customers.models import Customer
+>>> Customer.objects.create(first_name="John", last_name="Doe", email="john.doe@example.com", phone_number="123-456-7890")
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: customers_customer.email
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/query.py", line 660, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/query.py", line 1810, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: customers_customer.email
+>>> from customers.models import Customer
+>>> Customer.objects.create(first_name="John", last_name="Doe", email="john1.doe@exampl
+e.com", phone_number="123-456-7890")
+<Customer: John Doe>
+>>> python3 manage.py runserver 0.0.0.0:8000
+  File "<console>", line 1
+    python3 manage.py runserver 0.0.0.0:8000
+            ^
+SyntaxError: invalid syntax
+>>> 
+KeyboardInterrupt
+>>> python3 manage.py runserver 0.0.0.0:8000
+  File "<console>", line 1
+    python3 manage.py runserver 0.0.0.0:8000
+            ^
+SyntaxError: invalid syntax
+>>>

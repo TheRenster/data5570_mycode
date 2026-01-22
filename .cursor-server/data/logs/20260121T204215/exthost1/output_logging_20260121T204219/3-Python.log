@@ -1,0 +1,4 @@
+> conda info --json
+Python interpreter path: ./myvenv/bin/python
+Editor support is inactive since language server is set to None.
+Python interpreter path: /bin/python3

@@ -1,0 +1,21 @@
+2026-01-14 20:46:14.418 [info] 
+
+
+
+
+2026-01-14 20:46:14.428 [info] [CursorProclistService] Native module loaded successfully
+2026-01-14 20:46:14.429 [info] Extension host agent started.
+2026-01-14 20:46:14.891 [info] [127.0.0.1][11d0928e][ManagementConnection] New connection established.
+2026-01-14 20:46:15.005 [info] [127.0.0.1][038c26d1][ExtensionHostConnection] New connection established.
+2026-01-14 20:46:15.028 [info] Getting extensions control
+2026-01-14 20:46:15.042 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2026-01-14 20:46:15.177 [info] [127.0.0.1][038c26d1][ExtensionHostConnection] <359092> Launched Extension Host Process.
+2026-01-14 20:51:14.432 [info] New EH opened, aborting shutdown
+2026-01-14 20:51:15.170 [info] [CursorProclistService] Sample 0 created: 19 processes, 32 subsamples
+2026-01-14 20:56:16.235 [info] [CursorProclistService] Sample 1 created: 11 processes, 31 subsamples
+2026-01-14 21:01:15.087 [info] [CursorProclistService] Sample 2 created: 14 processes, 31 subsamples
+2026-01-14 21:06:16.506 [info] [CursorProclistService] Sample 3 created: 11 processes, 31 subsamples
+2026-01-14 21:06:42.429 [info] [127.0.0.1][11d0928e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2026-01-14 21:06:42.530 [info] [127.0.0.1][038c26d1][ExtensionHostConnection] <359092> Extension Host Process exited with code: 0, signal: null.
+2026-01-14 21:06:42.530 [info] Last EH closed, waiting before shutting down
+2026-01-14 21:11:42.537 [info] Last EH closed, shutting down

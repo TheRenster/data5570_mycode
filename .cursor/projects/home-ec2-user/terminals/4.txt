@@ -1,0 +1,30 @@
+---
+pid: 8296
+cwd: /home/ec2-user
+active_command: git add .
+last_command: git init
+last_exit_code: 0
+---
+[ec2-user@ip-172-31-24-235 ~]$ git remote remove origin
+fatal: not a git repository (or any of the parent directories): .git
+[ec2-user@ip-172-31-24-235 ~]$ git remote add origin https://github.com/TheRenster/data5570_mycode.git
+fatal: not a git repository (or any of the parent directories): .git
+[ec2-user@ip-172-31-24-235 ~]$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+hint:
+hint: Disable this message with "git config set advice.defaultBranchName false"
+Initialized empty Git repository in /home/ec2-user/.git/
+[ec2-user@ip-172-31-24-235 ~]$ git add . 
+git commit -m "Initial commit of Django project"
+git remote add origin https://github.com/TheRenster/data5570_mycode.git
+warning: in the working copy of '.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@aminya/node-gyp-build/LICENSE', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '.cursor-server/extensions/ms-toolsai.jupyter-2025.4.1/dist/node_modules/@aminya/node-gyp-build/README.md', CRLF will be replaced by LF the next time Git touches it

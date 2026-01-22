@@ -1,0 +1,3 @@
+2026-01-14 21:08:40.785 [info] Initializing GrepClient
+2026-01-14 21:08:40.785 [info] Watching filesystem...
+2026-01-14 21:08:41.385 [error] Failed to initialize GrepClient cannot index repository without Git

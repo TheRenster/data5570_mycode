@@ -1,0 +1,38 @@
+2026-01-21 19:35:58.055 [error] Error getting repo info: Failed to execute git
+2026-01-21 19:35:58.055 [error] Error: Failed to execute git
+	at t.Git._execOld (/home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/extensions/git/dist/main.js:2:38047)
+	at async t.Git.exec (/home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/extensions/git/dist/main.js:2:36390)
+	at async t.GitProvider.executeGitCommandStable (/home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/extensions/cursor-retrieval/dist/main.js:2:1519644)
+	at async t.GitProvider.getRepoInfo (/home/ec2-user/.cursor-server/bin/linux-x64/cf8353edc265f5e46b798bfb276861d0bf3bf120/extensions/cursor-retrieval/dist/main.js:2:1495357)
+2026-01-21 19:35:58.055 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-01-21 19:35:58.055 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-01-21 19:35:58.055 [info] Using existing keys for an index
+2026-01-21 19:35:58.055 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-21 19:35:59.387 [warning] Failed to get symbolic ref: Failed to execute git
+2026-01-21 19:35:59.388 [error] Error getting repo info: Failed to execute git
+2026-01-21 19:35:59.396 [warning] Failed to read .git/HEAD: A system error occurred (ENOENT: no such file or directory, open '/home/ec2-user/.git/HEAD')
+2026-01-21 19:35:59.437 [info] Starting RepoIndexWatcher for repo: 6ae511c9-1d43-4027-b75c-c8bf06d721d2, owner: auth0|user_01KE7Z4HVZXQKDAY2WKCN896JE
+2026-01-21 19:35:59.437 [error] We currently do not allow indexing the home directory.
+2026-01-21 19:35:59.437 [info] Indexing job successfully done or aborted.
+2026-01-21 19:35:59.462 [warning] Failed to get branches from remote: Failed to execute git
+2026-01-21 19:35:59.463 [warning] Failed to get default branch from git config: Failed to execute git
+2026-01-21 19:40:47.437 [info] multiCodebaseIndexingJob dispose
+2026-01-21 19:40:47.438 [info] Aborting indexing job.
+2026-01-21 19:40:47.438 [error] We currently do not allow indexing the home directory.
+2026-01-21 19:40:47.438 [info] Indexing job successfully done or aborted.
+2026-01-21 19:50:02.343 [info] multiCodebaseIndexingJob dispose
+2026-01-21 19:50:09.300 [info] Aborting indexing job.
+2026-01-21 19:50:17.982 [error] We currently do not allow indexing the home directory.
+2026-01-21 19:50:27.867 [info] Indexing job successfully done or aborted.
+2026-01-21 19:55:57.440 [info] multiCodebaseIndexingJob dispose
+2026-01-21 19:55:57.956 [info] Aborting indexing job.
+2026-01-21 19:55:58.790 [error] We currently do not allow indexing the home directory.
+2026-01-21 19:55:59.987 [info] Indexing job successfully done or aborted.
+2026-01-21 20:00:47.640 [info] multiCodebaseIndexingJob dispose
+2026-01-21 20:00:47.815 [info] Aborting indexing job.
+2026-01-21 20:00:47.992 [error] We currently do not allow indexing the home directory.
+2026-01-21 20:00:48.174 [info] Indexing job successfully done or aborted.
+2026-01-21 20:14:17.296 [info] multiCodebaseIndexingJob dispose
+2026-01-21 20:14:23.055 [info] Aborting indexing job.
+2026-01-21 20:14:29.512 [error] We currently do not allow indexing the home directory.
+2026-01-21 20:14:38.590 [info] Indexing job successfully done or aborted.

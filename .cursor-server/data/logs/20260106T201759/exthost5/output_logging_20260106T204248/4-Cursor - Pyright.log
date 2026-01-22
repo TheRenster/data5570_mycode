@@ -1,0 +1,12 @@
+[Info  - 20:43:44.716] [settings migration] Couldn't read and parse remote machine settings at /home/ec2-user/.cursor-server/data/Machine/settings.json
+Error: ENOENT: no such file or directory, open '/home/ec2-user/.cursor-server/data/Machine/settings.json'
+	at async open (node:internal/fs/promises:641:25)
+	at async Object.readFile (node:internal/fs/promises:1258:14)
+	at async E (/home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:293347)
+	at async /home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:289218
+	at async O (/home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/extension.js:1:289182)
+[Info  - 20:43:44.763] failed to find pyright executable, falling back to bundled:
+basedpyright-langserver
+[Info  - 20:43:44.763] using bundled pyright
+[Info  - 20:43:44.763] running node with argzs: --max-old-space-size=3072
+[Info  - 20:43:44.763] using default node executable

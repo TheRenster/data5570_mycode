@@ -1,0 +1,20 @@
+[Info  - 9:14:17 PM] basedpyright language server 1.32.1 starting
+[Info  - 9:14:17 PM] Server root directory: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 9:14:17 PM] Starting service instance "ec2-user"
+Received pythonPath from Python extension: /home/ec2-user/myvenv/bin/python
+[Info  - 9:14:17 PM] Setting pythonPath for service "ec2-user": "/home/ec2-user/myvenv/bin/python"
+[Info  - 9:14:17 PM] No include entries specified; assuming /home/ec2-user
+[Info  - 9:14:17 PM] Auto-excluding **/node_modules
+[Info  - 9:14:17 PM] Auto-excluding **/__pycache__
+[Info  - 9:14:17 PM] Auto-excluding **/.*
+[Info  - 9:14:17 PM] Assuming Python version 3.9.25.final.0
+[Info  - 9:14:18 PM] Auto-excluding /home/ec2-user/myvenv
+[Info  - 9:14:18 PM] Found 14 source files
+[Info  - 9:14:18 PM] BG: Background analysis(1) root directory: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist
+[Info  - 9:14:18 PM] BG: Background analysis(1) started
+[Info  - 9:14:31 PM] [FG] Long operation: parsing: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/rlcompleter.pyi (2866ms)
+[Info  - 9:36:58 PM] [FG] Long operation: parsing: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/secrets.pyi (252115ms)
+[Info  - 9:36:58 PM] [FG] Long operation: binding: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/secrets.pyi (69950ms)
+[Info  - 9:36:58 PM] [FG] Long operation: parsing: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/select.pyi (676145ms)
+[Info  - 9:36:58 PM] [FG] Long operation: binding: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/select.pyi (62099ms)
+[Info  - 9:36:58 PM] [FG] Long operation: parsing: file:///home/ec2-user/.cursor-server/extensions/anysphere.cursorpyright-1.0.10/dist/typeshed-fallback/stdlib/selectors.pyi (79758ms)
