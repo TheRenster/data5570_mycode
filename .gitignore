@@ -3,3 +3,15 @@
 myvenv/
 db.sqlite3
 .DS_Store
+
+# IDE / editor
+.cursor-server/
+.cache/
+
+# Node / Expo (root level)
+node_modules/
+.expo/
+.npm/
+
+# NVM (optional; uncomment if you don't want to track nvm install)
+# .nvm/
