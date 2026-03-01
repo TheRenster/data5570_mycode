@@ -1,9 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { Stack, useLocalSearchParams } from 'expo-router';
+import { useSelector } from 'react-redux';
 import { Container } from '@/components/Container';
+import type { RootState } from '@/store';
 
 export default function Details() {
   const { name } = useLocalSearchParams<{ name: string }>();
+  const favoriteNames = useSelector((state: RootState) => state.app.favoriteNames);
+  const count = useSelector((state: RootState) => state.app.count);
 
   return (
     <View style={styles.container}>
@@ -28,6 +32,20 @@ export default function Details() {
           <View style={styles.row}>
             <Text style={styles.rowLabel}>Status</Text>
             <Text style={styles.rowValue}>Active</Text>
+          </View>
+        </View>
+
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>From Redux store</Text>
+          <View style={styles.row}>
+            <Text style={styles.rowLabel}>Count</Text>
+            <Text style={styles.rowValue}>{count}</Text>
+          </View>
+          <View style={styles.row}>
+            <Text style={styles.rowLabel}>Favorites</Text>
+            <Text style={styles.rowValue}>
+              {favoriteNames.length ? favoriteNames.join(', ') : 'None'}
+            </Text>
           </View>
         </View>
       </Container>
