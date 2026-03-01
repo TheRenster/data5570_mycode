@@ -10,7 +10,7 @@ export default function Home() {
       <Container>
         <View style={styles.header}>
           <Text style={styles.greeting}>Welcome back</Text>
-          <Text style={styles.subtitle}>Here’s what’s going on.</Text>
+          <Text style={styles.subtitle}>Here's what's going on.</Text>
         </View>
 
         <View style={styles.card}>
