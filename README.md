@@ -1,4 +1,4 @@
-#DATA 5570 | Building Software With Artificial Intelligence | Course Project Repository
+# DATA 5570 | Building Software With Artificial Intelligence | Course Project Repository
 This repository contains coursework and project code for DATA 5570, a course focused on building real software applications with AI assistance. The repo holds both a Django backend and a React Native mobile app, developed incrementally throughout the semester.
 What's in this repo (and why you might care)
 
