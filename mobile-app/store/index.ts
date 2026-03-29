@@ -1,9 +1,15 @@
 import { configureStore } from '@reduxjs/toolkit';
-import appReducer from './appSlice';
+import profileReducer from './profileSlice';
+import listingsReducer from './listingsSlice';
+import matchesReducer from './matchesSlice';
+import messagesReducer from './messagesSlice';
 
 export const store = configureStore({
   reducer: {
-    app: appReducer,
+    profile: profileReducer,
+    listings: listingsReducer,
+    matches: matchesReducer,
+    messages: messagesReducer,
   },
 });
 
