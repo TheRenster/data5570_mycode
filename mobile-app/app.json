@@ -1,48 +1,53 @@
 {
   "expo": {
-    "name": "mobile-app",
+    "name": "Barter Place",
     "slug": "mobile-app",
     "version": "1.0.0",
-    
-    
-      "scheme": "mobile-app",
-      "platforms": ["ios", "android", "web"],
-      "web": {
-        "bundler": "metro",
-        "output": "static",
-        "favicon": "./assets/favicon.png"
-      },
-      "plugins": [
-      "expo-router"
-      
+    "scheme": "mobile-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
     ],
-      "experiments": {
-        "typedRoutes": true
-        
-          ,"tsconfigPaths": true
-        
-      },
-    
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    
-     "userInterfaceStyle": "light",
-    
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0c0f14"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.data5570.barterplace"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#0c0f14"
+      },
+      "package": "com.data5570.barterplace"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "apiUrl": "http://127.0.0.1:8000",
+      "router": {},
+      "eas": {
+        "projectId": "6adb5fce-76e6-4524-9f69-997fd058914c"
       }
     }
   }
