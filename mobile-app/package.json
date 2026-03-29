@@ -6,9 +6,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "start": "expo start",
+    "web": "expo start --web",
+    "export:web": "expo export -p web",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx}\" && prettier -c \"**/*.{js,jsx,ts,tsx,json}\"",
-    "format": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix && prettier \"**/*.{js,jsx,ts,tsx,json}\" --write",
-    "web": "expo start --web"
+    "format": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix && prettier \"**/*.{js,jsx,ts,tsx,json}\" --write"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
